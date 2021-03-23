@@ -1,0 +1,2 @@
+me/waveproject/widget/BuildConfig.java
+ me.waveproject.widget.BuildConfig

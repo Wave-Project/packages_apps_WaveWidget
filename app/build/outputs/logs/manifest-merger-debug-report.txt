@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:5:5-19:19
+	android:supportsRtl
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:6:9-43
+receiver#me.waveproject.widget.WaveWidgetProvider
+ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:10:9-18:20
+	android:name
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:10:19-53
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:11:13-13:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:12:17-84
+	android:name
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:12:25-81
+meta-data#android.appwidget.provider
+ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:15:13-17:60
+	android:resource
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:17:17-57
+	android:name
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:16:17-58
+uses-sdk
+INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml

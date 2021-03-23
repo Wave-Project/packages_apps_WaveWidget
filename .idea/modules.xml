@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/packages_apps_WaveWidget-r.iml" filepath="$PROJECT_DIR$/.idea/modules/packages_apps_WaveWidget-r.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/packages_apps_WaveWidget-r.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/packages_apps_WaveWidget-r.app.iml" />
+    </modules>
+  </component>
+</project>

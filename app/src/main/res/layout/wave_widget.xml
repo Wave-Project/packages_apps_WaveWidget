@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wave_widget"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null" />
+
+    <LinearLayout
+        android:id="@+id/root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextClock
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-regular"
+            android:format12Hour="EE, MMM d"
+            android:format24Hour="EE, MMM d"
+            android:autoSizeMaxTextSize="55sp"
+            android:autoSizeMinTextSize="14sp"
+            android:autoSizeStepGranularity="1sp"
+            android:autoSizeTextType="uniform"
+            android:textSize="15sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tag_line"
+            style="@style/TagLine"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:fontFamily="sans-serif-regular"
+            android:layout_weight="1"
+            android:text="@string/never_better"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:autoSizeMaxTextSize="40sp"
+            android:autoSizeMinTextSize="15sp"
+            android:autoSizeStepGranularity="1sp"
+            android:autoSizeTextType="uniform"
+            android:textColor="@android:color/white" />
+
+        <TextClock
+            android:id="@+id/clock_hour"
+            style="@style/ClockElement"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:format12Hour="hh:mm"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:format24Hour="HH:mm"
+            android:autoSizeMaxTextSize="80sp"
+            android:autoSizeMinTextSize="32sp"
+            android:autoSizeStepGranularity="1sp"
+            android:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+</FrameLayout>
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tag_line"-->
+    <!--        style="@style/TagLine"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/date"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_marginStart="7dp"-->
+    <!--        android:fontFamily="sans-serif-regular"-->
+    <!--        android:singleLine="true"-->
+    <!--        android:text="@string/never_better"-->
+    <!--        android:textAllCaps="true"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        android:textSize="15sp" />-->
+

@@ -1,0 +1,39 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.waveproject.widget" >
+4
+5    <uses-sdk android:minSdkVersion="1" />
+5-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml
+6
+7    <application
+7-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:5:5-19:19
+8        android:debuggable="true"
+9        android:icon="@mipmap/ic_launcher"
+9-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:6:9-43
+10        android:label="@string/app_name"
+10-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:7:9-41
+11        android:roundIcon="@mipmap/ic_launcher_round"
+11-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:8:9-54
+12        android:supportsRtl="true"
+12-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:9:9-35
+13        android:testOnly="true" >
+14        <receiver android:name="me.waveproject.widget.WaveWidgetProvider" >
+14-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:10:9-18:20
+14-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:10:19-53
+15            <intent-filter>
+15-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:11:13-13:29
+16                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+16-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:12:17-84
+16-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:12:25-81
+17            </intent-filter>
+18
+19            <meta-data
+19-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:15:13-17:60
+20                android:name="android.appwidget.provider"
+20-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:16:17-58
+21                android:resource="@xml/wave_widget_info" />
+21-->E:\Android_Projects\PracticeApps\packages_apps_WaveWidget-r\app\src\main\AndroidManifest.xml:17:17-57
+22        </receiver>
+23    </application>
+24
+25</manifest>
